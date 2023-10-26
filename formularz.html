@@ -1,0 +1,70 @@
+<meta charset="utf-8">
+<html lang="pl"> <html>
+<form action="mailto:alemink12@edu.gdansk.pl" method="post" enctype="text/plain"><div>
+    <!-- Podstawowe pole tekstowe -->
+    Podaj swoje imie <input name="Imie"> <br>
+    Podaj swoje nazwisko <input name="Nazwisko"> <br>
+    Podaj adres zamieszkania <input name="Adres zamieszkania"> <br>
+    Podaj adres e-mail <input name="Adres e-mail">  <br>
+    
+    <!-- Pole typu RADIO -->
+    <p>Podaj swoją płeć:</p>
+    <input type="radio" name="Pleć" value="Kobieta">Kobieta
+    <input type="radio" name="Pleć" value="Mezczyzna">Mężczyzna
+    <!-- Pole typu RADIO -->
+    
+    <p>Do jakiej klasy uczeszczasz?</p>
+    <input type="radio" name="Klasa" value="1">1<br>
+    <input type="radio" name="Klasa" value="2">2<br>
+    <input type="radio" name="Klasa" value="3">3<br>
+    <input type="radio" name="Klasa" value="4">4<br>
+    <input type="radio" name="Klasa" value="5">5<br>
+    
+
+
+    <p>Czy umiesz programowac?</p>
+    <input type="radio" name="Umie programowac?" value="Tak">Tak<br>
+    <input type="radio" name="Umie programowac?" value="Nie">Nie<br>
+    
+    <p>Czy posiadasz konto GitHub?</p>
+    <input type="radio" name="Posiada konto GitHub?" value="Tak">Tak<br>
+    <input type="radio" name="Posiada konto GitHub?" value="Nie">Nie<br>
+
+
+    <!-- Pole typu CHECKBOX -->
+    <p>Ile programował*ś(możesz zaznaczyć więcej możliwości)?</p>
+    <input type="radio" name="Ile programuje" value="wiecej niz 10 lat"> wiecej niz 10 lat<br>
+    <input type="radio" name="Ile programuje" value="wiecej niz 5 lat">wiecej niz 5 lat<br>
+    <input type="radio" name="Ile programuje" value="wiecej niz rok">wiecej niz rok<br>
+    <input type="radio" name="Ile programuje" value="Pare miesiecy">Pare miesiecy<br>
+    <input type="radio" name="Ile programuje" value="Dopiero zaczał">Dopiero zaczynam<br>
+    <input type="radio" name="Ile programuje" value="Nigdy">NIgdy nie programował*m <br>
+    
+    <!-- Lista rozwijalna (typ podstawowy) z zaznaczoną opcją domyślną -->
+    <p>Jakiej przeglądarki internetowej używasz?</p>
+    <select name="Przegladarka">
+        <option selected>Chrome</option>
+        <option>Opera</option>
+        <option>Firefox</option>
+        <option>Edge</option>
+        <option>Inna</option>
+    </select>
+    <!-- Lista rozwijalna (typ rozszerzony) z zaznaczoną opcją domyślną i zmniejszoną wysokością -->
+    <p>Jakie znasz systemy operacyjne (możesz wybrać kilka opcji trzymając klawisz Ctrl)?</p>
+    <select name="System operacyjny" multiple size="3">
+        <option selected>Windows</option>
+        <option>DOS</option>
+        <option>Linux</option>
+        <option>Inny</option>
+    </select>
+    <!-- Pole komentarza (o powiększonych rozmiarach oraz z tekstem domyślnym) -->
+    <p>Jeśli masz jakieś pytania lub komentarze ,napisz tutaj  ↙</p>
+    <textarea name="Komentarz" cols="50" rows="10"></textarea>
+    <br><br><br>
+    <!-- Przycisk WYŚLIJ -->
+    <input type="submit" value="WYSLIJ FORMULARZ">
+    <!-- Przycisk WYCZYŚĆ DANE -->
+    <input type="reset" value="RESETUJ">
+    </div></form>
+    <A HREF="tabela_v2.html"style="position: absolute; bottom: -300px;; right: 1600 ; font-size: 50px;		"> wroc do tabeli</A>
+</html>
